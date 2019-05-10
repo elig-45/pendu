@@ -53,6 +53,7 @@ function guessLetter() {
 		guessLetter();
 	}else{
 		alert("Vous avez gagné!")
+		document.write("<p class=\"win\">Félicitations ! Tu as trouvé le mot !</p> \n  Bonjour")
 	}
 	}
 }
